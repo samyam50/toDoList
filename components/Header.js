@@ -13,7 +13,7 @@ const Header = ({ title }) => {
 
 // Default Header
 Header.defaultProps = {
-  title: 'To Do List',
+  title: 'ToDo List',
 };
 
 const styles = StyleSheet.create({
@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   text: {
-    color: 'white',
-    fontSize: 23,
+    color: 'red',
+    fontSize: 28,
     textAlign: 'center',
   },
 });
